@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 var port     = process.env.PORT || 8080; // set our port
 
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://node:node@novus.modulusmongo.net:27017/Iganiq8o'); // connect to our database
+mongoose.connect('mongodb://brandenh:branden123@ds035683.mongolab.com:35683/mongodev1'); // connect to our database
 var Bear     = require('./app/models/bear');
 
 // ROUTES FOR OUR API
